@@ -12,8 +12,8 @@ public class MovieController {
         return "index";
     }
 
-    @GetMapping("/side2")
+    @GetMapping("/1")
     public String getSide2(){
-        return "side2";
+        return "side1";
     }
 }
